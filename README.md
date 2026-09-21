@@ -65,8 +65,7 @@ Messages accumulate in the graph state, and an in-memory checkpointer supports m
 ## Unsupported Question
 
 The documents intentionally do not cover this question:
-- The assistant should respond:
--- The provided documents do not cover that question.
+- The assistant should respond: The provided documents do not cover that question.
 
 ## Tests
 Tests run without AWS credentials or network access:
