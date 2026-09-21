@@ -64,7 +64,7 @@ Messages accumulate in the graph state, and an in-memory checkpointer supports m
 
 ## Unsupported Question
 
-The documents intentionally do not cover this question:
+The documents intentionally do not cover a question:
 - The assistant should respond: The provided documents do not cover that question.
 
 ## Tests
