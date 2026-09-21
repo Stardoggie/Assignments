@@ -17,7 +17,7 @@ python -m ticket_assistant.run
 ```
 Commands:
 - `/reset` clears the conversation.
-- `/quit` exits the assistant.
+- `/quit` exits the agent.
 
 ## Graph
 
@@ -58,15 +58,15 @@ The retry cycle is:
 answer -> rewrite_query -> retrieve -> answer
 ```
 
-The graph allows two retrieval attempts. If the answer is still not grounded after the second attempt, the assistant refuses.
+The graph is allowed two attempts to find something. If the answer is still not_grounded after the second attempt, the agent refuses.
 
 Messages accumulate in the graph state, and an in-memory checkpointer supports multi-turn conversations.
 
 ## Unsupported Question
 
 The documents intentionally do not cover this question:
-The assistant should respond:
-The provided documents do not cover that question.
+- The assistant should respond:
+-- The provided documents do not cover that question.
 
 ## Tests
 Tests run without AWS credentials or network access:
