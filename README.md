@@ -1,8 +1,8 @@
 # PiiLab
 
-A vet clinic agent on AgentCore that looks up a pet and books a pet taxi without leaking the owner's personal data. See `FINDINGS.md` for the write-up.
+A vet clinic agent on AgentCore that looks up a pet and books a pet taxi without leaking the owner's personal data. See FINDINGS.md for the write-up.
 
-I ran it locally under `agentcore dev`.
+I ran it locally under agentcore dev.
 
 ## Run the tests
 
@@ -29,4 +29,4 @@ pytest
    agentcore dev "Hi, I'm Logan Gro (Logan.Gro@example.com, 555-0123). Can you book Lulu, PET-2201, in and arrange a pet taxi for tomorrow 11am?"
    ```
 
-What was sent to the taxi company is in `app/LabAgent/var/pawsride_outbox.jsonl`, and the audit log is in `app/LabAgent/var/audit.jsonl`.
+What was sent to the taxi company is in app/LabAgent/var/pawsride_outbox.jsonl, and the audit log is in app/LabAgent/var/audit.jsonl.
