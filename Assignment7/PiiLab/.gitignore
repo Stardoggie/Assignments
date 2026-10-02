@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Anything the agent sends or writes down (may hold personal data)
+var/
+*.jsonl
+*.log
+transcript*
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
